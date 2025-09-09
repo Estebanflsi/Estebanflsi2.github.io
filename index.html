@@ -1,87 +1,96 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  <!-- Materialize CSS -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Estilos propios (RUTA RELATIVA) -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-
   <title>Esteban Flor Sierra | Operador de Mercados Energéticos</title>
 
-  <!-- Open Graph -->
-  <meta property="og:locale" content="es_ES" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Esteban Flor Sierra | Operador de Mercados Energéticos" />
-  <meta property="og:description" content="Operación de mercados eléctricos, análisis y optimización." />
-  <meta property="og:url" content="https://estebanflsi.github.io/Estebanflsi2.github.io/" />
-  <meta property="og:site_name" content="Esteban Flor Sierra" />
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .intro { text-align: center; padding: 80px 20px; background: #004d40; color: white; }
+    .intro h1 { font-size: 2.5em; margin-bottom: 10px; }
+    .intro h2 { font-size: 1.5em; font-weight: 300; margin-top: 0; }
+    section { padding: 60px 20px; }
+    .page-title { padding: 10px; }
+    .social a { margin: 0 10px; color: white; font-size: 1.5em; }
+    footer { text-align: center; padding: 20px; background: #eee; }
+  </style>
 </head>
 
 <body>
-  <!-- NAV ESCRITORIO -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
-      <li class="logo">
-        <a id="logo-container" aria-label="Ir al inicio" href="#intro" class="brand-logo grey-blue-text">
-          <!-- RUTA RELATIVA -->
-          <img src="assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="Foto de Esteban">
-        </a>
-      </li>
-
-      <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>Sobre mí</span></a></li>
-      <li class="bold"><a href="#experience" class="waves-effect waves-dark teal-text"><i class="mdi-action-trending-up small"></i><span>Experiencia</span></a></li>
-      <li class="bold"><a href="#education" class="waves-effect waves-dark teal-text"><i class="mdi-social-school small"></i><span>Educación</span></a></li>
-      <li class="bold"><a href="#contact" class="waves-effect waves-dark teal-text"><i class="mdi-content-mail small"></i><span>Contacto</span></a></li>
-
-      <li class="bold">
-        <!-- RUTA RELATIVA AL PDF -->
-        <a href="assets/resume/Esteban_Flor_Sierra_CV.pdf" target="_blank" class="waves-effect waves-dark teal-text">
-          <i class="mdi-file-folder-open small"></i><span>CV</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- NAV MÓVIL (barra superior) -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" href="#" class="teal-text">Esteban Flor Sierra</a>
-      <span class="black-text">Operador de Mercados Energéticos</span>
+  <!-- Intro -->
+  <header class="intro">
+    <h1>Esteban Flor Sierra</h1>
+    <h2>Operador de Mercados Energéticos</h2>
+    <div class="social">
+      <a href="mailto:estebanflorsierra2@gmail.com"><i class="fa fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/esteban-flor-sierra-b35690295" target="_blank"><i class="fa fa-linkedin"></i></a>
     </div>
-  </nav>
+  </header>
 
-  <!-- NAV MÓVIL (drawer) -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>Sobre mí</span></a></li>
-      <li class="bold"><a href="#experience" class="waves-effect waves-dark teal-text"><i class="mdi-action-trending-up small"></i><span>Experiencia</span></a></li>
-      <li class="bold"><a href="#education" class="waves-effect waves-dark teal-text"><i class="mdi-social-school small"></i><span>Educación</span></a></li>
-      <li class="bold"><a href="#contact" class="waves-effect waves-dark teal-text"><i class="mdi-content-mail small"></i><span>Contacto</span></a></li>
-      <li class="bold"><a href="assets/resume/Esteban_Flor_Sierra_CV.pdf" target="_blank" class="waves-effect waves-dark teal-text">
-        <em class="mdi-file-folder-open small"></em><span>CV</span></a></li>
-    </ul>
-  </nav>
+  <!-- Sobre mí -->
+  <section id="about">
+    <h3 class="page-title teal white-text">Sobre mí</h3>
+    <div class="container">
+      <p>
+        Graduado en Economía y estudiante del Máster en Data Strategy and Analytics en EAE Business School.
+        Actualmente trabajo como Operador de Mercados Energéticos en Axpo Iberia, con experiencia en la operación del sistema eléctrico,
+        la comunicación con contrapartes internacionales y la optimización de estrategias de compra y venta de energía.
+      </p>
+      <p>
+        Me apasiona la analítica de datos aplicada al mercado eléctrico, la optimización y la toma de decisiones basada en información.
+      </p>
+    </div>
+  </section>
 
-  <!-- CONTENIDO -->
-  <main>
-    <!-- INTRO -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col s12 m10">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hola, soy <span class="teal">Esteban Flor Sierra</span></h2>
-              <h5 style="color:#fff">Un <span class="typing" style="font-weight:300; color:#004d40"></span></h5>
-              <h5>Operador de mercados eléctricos con enfoque en eficiencia, análisis de datos y optimización.</h5>
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Saber más</a>
-              <a href="#contact" class="cont
+  <!-- Experiencia -->
+  <section id="experience" style="background:#f9f9f9;">
+    <h3 class="page-title teal white-text">Experiencia</h3>
+    <div class="container">
+      <h5>Axpo Iberia – Operador de Mercados Energéticos</h5>
+      <p><em>Noviembre 2023 - Actualidad | Madrid, España</em></p>
+      <ul>
+        <li>Gestión y operación en mercados eléctricos.</li>
+        <li>Optimización de estrategias de compra y venta de energía.</li>
+        <li>Análisis de datos para la toma de decisiones.</li>
+        <li>Comunicación con contrapartes internacionales.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Educación -->
+  <section id="education">
+    <h3 class="page-title teal white-text">Educación</h3>
+    <div class="container">
+      <h5>EAE Business School – Máster en Data Strategy and Analytics</h5>
+      <p><em>Abril 2025 - Actualidad | Madrid, España</em></p>
+      <h5>Universidad de Granada – Grado en Economía</h5>
+      <p><em>Julio 2021 - Julio 2024 | Granada, España</em></p>
+      <h5>Universidad de Sevilla – Grado en Economía</h5>
+      <p><em>Septiembre 2018 - Julio 2021 | Sevilla, España</em></p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" style="background:#f9f9f9;">
+    <h3 class="page-title teal white-text">Contacto</h3>
+    <div class="container">
+      <p><i class="fa fa-envelope"></i> <a href="mailto:estebanflorsierra2@gmail.com">estebanflorsierra2@gmail.com</a></p>
+      <p><i class="fa fa-phone"></i> +34 619 33 18 30</p>
+      <p><i class="fa fa-map-marker"></i> Madrid, España</p>
+      <p><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/esteban-flor-sierra-b35690295" target="_blank">LinkedIn</a></p>
+      <p><i class="fa fa-file-pdf-o"></i> <a href="assets/resume/Esteban_Flor_Sierra_CV.pdf" target="_blank">Ver mi CV (PDF)</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Esteban Flor Sierra</p>
+  </footer>
+</body>
+</html>
