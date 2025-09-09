@@ -1,96 +1,341 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- (Desactivado) Google Tag Manager del autor original -->
+  <!--
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
   <title>Esteban Flor Sierra | Operador de Mercados Energéticos</title>
 
-  <!-- Materialize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- (Desactivado) Google Analytics del autor original -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-126939217-2');
+  </script>
+  -->
 
-  <style>
-    body { font-family: Arial, sans-serif; }
-    .intro { text-align: center; padding: 80px 20px; background: #004d40; color: white; }
-    .intro h1 { font-size: 2.5em; margin-bottom: 10px; }
-    .intro h2 { font-size: 1.5em; font-weight: 300; margin-top: 0; }
-    section { padding: 60px 20px; }
-    .page-title { padding: 10px; }
-    .social a { margin: 0 10px; color: white; font-size: 1.5em; }
-    footer { text-align: center; padding: 20px; background: #eee; }
-  </style>
+  <!-- Open Graph-->
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Esteban Flor Sierra | Operador de Mercados Energéticos" />
+  <meta property="og:description" content="Operador de mercados eléctricos. Analítica de datos aplicada a la operación y optimización." />
+  <meta property="og:url" content="https://TU_USUARIO.github.io/" />
+  <meta property="og:site_name" content="Esteban Flor Sierra | Operación de Mercados" />
+  <meta property="article:publisher" content="https://TU_USUARIO.github.io/" />
+
+  <!-- (Opcional) Google Site Verification tuyo si quieres indexar -->
+  <!-- <meta name="google-site-verification" content="TU_TOKEN" /> -->
 </head>
 
 <body>
-  <!-- Intro -->
-  <header class="intro">
-    <h1>Esteban Flor Sierra</h1>
-    <h2>Operador de Mercados Energéticos</h2>
-    <div class="social">
-      <a href="mailto:estebanflorsierra2@gmail.com"><i class="fa fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/esteban-flor-sierra-b35690295" target="_blank"><i class="fa fa-linkedin"></i></a>
-    </div>
-  </header>
+  <!-- (Desactivado) Google Tag Manager (noscript) -->
+  <!--
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+      height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  -->
+  
+  <!-- Navigation Menu-->
+  <!-- Nav escritorio -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
 
-  <!-- Sobre mí -->
-  <section id="about">
-    <h3 class="page-title teal white-text">Sobre mí</h3>
-    <div class="container">
-      <p>
-        Graduado en Economía y estudiante del Máster en Data Strategy and Analytics en EAE Business School.
-        Actualmente trabajo como Operador de Mercados Energéticos en Axpo Iberia, con experiencia en la operación del sistema eléctrico,
-        la comunicación con contrapartes internacionales y la optimización de estrategias de compra y venta de energía.
-      </p>
-      <p>
-        Me apasiona la analítica de datos aplicada al mercado eléctrico, la optimización y la toma de decisiones basada en información.
-      </p>
-    </div>
-  </section>
+      <li class="logo">
+        <a id="logo-container" aria-label="Ir al inicio" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
 
-  <!-- Experiencia -->
-  <section id="experience" style="background:#f9f9f9;">
-    <h3 class="page-title teal white-text">Experiencia</h3>
-    <div class="container">
-      <h5>Axpo Iberia – Operador de Mercados Energéticos</h5>
-      <p><em>Noviembre 2023 - Actualidad | Madrid, España</em></p>
-      <ul>
-        <li>Gestión y operación en mercados eléctricos.</li>
-        <li>Optimización de estrategias de compra y venta de energía.</li>
-        <li>Análisis de datos para la toma de decisiones.</li>
-        <li>Comunicación con contrapartes internacionales.</li>
-      </ul>
-    </div>
-  </section>
+      <li class="bold">
+        <a aria-label="Ir a Sobre mí" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>Sobre mí</span></a>
+      </li>
 
-  <!-- Educación -->
-  <section id="education">
-    <h3 class="page-title teal white-text">Educación</h3>
-    <div class="container">
-      <h5>EAE Business School – Máster en Data Strategy and Analytics</h5>
-      <p><em>Abril 2025 - Actualidad | Madrid, España</em></p>
-      <h5>Universidad de Granada – Grado en Economía</h5>
-      <p><em>Julio 2021 - Julio 2024 | Granada, España</em></p>
-      <h5>Universidad de Sevilla – Grado en Economía</h5>
-      <p><em>Septiembre 2018 - Julio 2021 | Sevilla, España</em></p>
-    </div>
-  </section>
+      <li class="bold">
+        <a aria-label="Ir a Experiencia" href="#experience" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experiencia</span></a>
+      </li>
 
-  <!-- Contacto -->
-  <section id="contact" style="background:#f9f9f9;">
-    <h3 class="page-title teal white-text">Contacto</h3>
-    <div class="container">
-      <p><i class="fa fa-envelope"></i> <a href="mailto:estebanflorsierra2@gmail.com">estebanflorsierra2@gmail.com</a></p>
-      <p><i class="fa fa-phone"></i> +34 619 33 18 30</p>
-      <p><i class="fa fa-map-marker"></i> Madrid, España</p>
-      <p><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/esteban-flor-sierra-b35690295" target="_blank">LinkedIn</a></p>
-      <p><i class="fa fa-file-pdf-o"></i> <a href="assets/resume/Esteban_Flor_Sierra_CV.pdf" target="_blank">Ver mi CV (PDF)</a></p>
-    </div>
-  </section>
+      <li class="bold">
+        <a aria-label="Ir a Educación" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Educación</span></a>
+      </li>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Esteban Flor Sierra</p>
-  </footer>
+      <li class="bold">
+        <a aria-label="Ir a Contacto" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contacto</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Abrir CV de Esteban en una pestaña nueva" href="https://TU_USUARIO.github.io/assets/resume/Esteban_Flor_Sierra_CV.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>CV</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav móvil (barra superior) -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Mostrar menú móvil" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Inicio" href="#" class="teal-text">Esteban Flor Sierra</a>
+      <span class="black-text">Operador de Mercados Energéticos</span>
+    </div>
+  </nav>
+
+  <!-- Nav móvil (drawer) -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Ir a Sobre mí" href="#about" class="waves-effect waves-dark teal-text">
+          <i class="mdi-social-person small"></i><span>Sobre mí</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Ir a Experiencia" href="#experience"
+          class="waves-effect waves-dark teal-text">
+          <i class="mdi-action-trending-up small"></i><span>Experiencia</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Ir a Educación" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Educación</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Ir a Contacto" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contacto</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Abrir CV" href="https://TU_USUARIO.github.io/assets/resume/Esteban_Flor_Sierra_CV.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text">
+          <em class="mdi-file-folder-open small"></em><span>CV</span>
+      </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- Intro -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hola, soy <span class="teal">Esteban Flor Sierra</span></h2>
+              <h5 style="color:#fff">Un <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5>Operador de mercados eléctricos con enfoque en eficiencia, análisis de datos y optimización de estrategias.</h5>
+            </div>
+            <div class="social">
+              <!-- Deja solo lo que uses realmente -->
+              <!-- <a href="https://linkedin.com/in/TU_PERFIL" target="_blank">
+                <button class="icon-btn linkedin"><em class="fa fa-linkedin"></em></button>
+              </a> -->
+              <!-- Si no tienes GitHub/Medium públicos, mejor ocultarlos -->
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Saber más</a>
+              <a href="#contact" class="contactme">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">Sobre mí</h3>
+      <div class="container flow-text">   
+        <p>
+          Graduado en Economía y estudiante del Máster en Data Strategy and Analytics. 
+          Con muchas ganas e ilusión por seguir avanzando personal y profesionalmente. 
+          Amplia capacidad de razonamiento lógico y resolución de problemas. 
+          Compromiso, constancia, ilusión y autenticidad.
+        </p>
+        <p>
+          <ul>
+            <li><strong>Idiomas:</strong> Español (nativo), Inglés (medio-alto)</li>
+            <li><strong>Programas/entornos:</strong> Paquete ofimático, Gretl, RStudio</li>
+            <li><strong>Plataformas mercado eléctrico:</strong> OMIE, SCADA, REMIT</li>
+            <li><strong>Otros:</strong> Permiso de conducir, Curso de primeros auxilios</li>
+            <li><strong>Intereses actuales:</strong> Analítica aplicada a operación de mercado, optimización y reporting</li>
+          </ul>
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experiencia</h3>
+      <div class="container">
+
+        <!-- Axpo Iberia -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.axpo.com/es/es.html" target="_blank">
+                  <img alt="Axpo logo" src="/assets/img/axpo-logo.png" class="responsive-img center-block" />
+                </a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.axpo.com/es/es.html" target="_blank"
+                      class="teal-text hoverline">Axpo Iberia</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Operador de Mercados Energéticos</div>
+            <ul>
+              <li>Gestión y operación en mercados eléctricos.</li>
+              <li>Optimización de estrategias de compra y venta de energía.</li>
+              <li>Análisis de datos para la toma de decisiones.</li>
+              <li>Conocimientos del sector eléctrico y sus derivados.</li>
+              <li>Enfoque en eficiencia y rentabilidad del mercado.</li>
+              <li>Gestión de comunicación con contrapartes internacionales.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Noviembre 2023 - Actualidad | Madrid, España</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Educación</h3>
+      <div class="container">
+        <div class="row">
+          <!-- EAE -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.eae.es/" target="_blank" class="teal-text hoverline">EAE Business School</a></span>
+                </p>
+                <p class="brown-text">Madrid, España</p>
+                <p>
+                  <strong>Máster:</strong> Data Strategy and Analytics
+                  <br>
+                  Abril 2025 - Actualidad
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Universidad de Granada / Sevilla -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.ugr.es/" target="_blank" class="teal-text hoverline">Universidad de Granada</a></span>
+                </p>
+                <p class="brown-text">Granada, España</p>
+                <p>
+                  <strong>Traspaso de expediente:</strong> Jul 2021 - Jul 2024
+                </p>
+                <hr>
+                <p>
+                  <span class="card-title"><a href="https://www.us.es/" target="_blank" class="teal-text hoverline">Universidad de Sevilla</a></span>
+                </p>
+                <p class="brown-text">Sevilla, España</p>
+                <p>
+                  <strong>Grado en Economía:</strong> Sept 2018 - Jul 2021
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contacto</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Email Esteban" href="mailto:estebanflorsierra2@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Esteban" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a aria-label="Email Esteban" href="mailto:estebanflorsierra2@gmail.com"
+              class="hoverline">estebanflorsierra2@gmail.com</a>
+        </p>
+        <p>
+          <i class="fa fa-phone"></i> <span>+34 619 33 18 30</span>
+        </p>
+        <p>
+          <i class="fa fa-map-marker"></i> <span>Madrid, Comunidad de Madrid</span>
+        </p>
+        <!-- Si compartes LinkedIn público, descomenta y pon tu URL:
+        <p>
+          <a aria-label="Ver LinkedIn de Esteban" href="https://linkedin.com/in/TU_PERFIL" target="_blank"
+            data-position="top" data-tooltip="LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i></a>
+          <a class="hoverline" target="_blank" href="https://linkedin.com/in/TU_PERFIL">linkedin.com/in/TU_PERFIL</a>
+        </p>
+        -->
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Operador de Mercados", "Analista de Datos", "Aprendiz rápido"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      $(".button-collapse").sideNav({
+        menuWidth: 190,
+        edge: "left",
+        closeOnClick: true
+      })
+    })
+  </script>
 </body>
+
 </html>
